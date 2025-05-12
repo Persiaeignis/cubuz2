@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000000;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* Selected block display */
+#selectedBlock {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  z-index: 20;
+}
